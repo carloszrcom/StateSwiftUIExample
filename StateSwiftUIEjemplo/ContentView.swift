@@ -8,20 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var coche = "Renault"
+    @State private var coche = "No hay coche"
     
     var body: some View {
-        VStack {
-            TextField("Marca para el coche: ", text: $coche)
-            
-            Button {
-                coche  = "Mercedes"
-            } label: {
-                 Text("Cambiar marca")
+        NavigationView {
+            VStack {
+                Text("Marca de coche: \(coche)")
+                    .padding(.bottom, 10)
+                
+                TextField("...", text: $coche)
+                    .padding(.bottom, 10)
+                
+                NavigationLink {
+                    CocheView(cochee: $coche)
+                } label: {
+                    Text("Ir a CocheView")
+                }
             }
-            .padding(.bottom)
-            
-            Text("La marca de coche es: \(coche)")
         }
     }
 }

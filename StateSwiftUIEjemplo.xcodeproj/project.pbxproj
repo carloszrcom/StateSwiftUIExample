@@ -11,6 +11,7 @@
 		C966B51E27E0B28800DBBAD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966B51D27E0B28800DBBAD2 /* ContentView.swift */; };
 		C966B52027E0B28900DBBAD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C966B51F27E0B28900DBBAD2 /* Assets.xcassets */; };
 		C966B52327E0B28900DBBAD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C966B52227E0B28900DBBAD2 /* Preview Assets.xcassets */; };
+		C9A554E927ECA90300B2E427 /* CocheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A554E827ECA90300B2E427 /* CocheView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C966B51D27E0B28800DBBAD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C966B51F27E0B28900DBBAD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C966B52227E0B28900DBBAD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9A554E827ECA90300B2E427 /* CocheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocheView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C966B51B27E0B28800DBBAD2 /* StateSwiftUIEjemploApp.swift */,
 				C966B51D27E0B28800DBBAD2 /* ContentView.swift */,
+				C9A554E827ECA90300B2E427 /* CocheView.swift */,
 				C966B51F27E0B28900DBBAD2 /* Assets.xcassets */,
 				C966B52127E0B28900DBBAD2 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C966B51E27E0B28800DBBAD2 /* ContentView.swift in Sources */,
+				C9A554E927ECA90300B2E427 /* CocheView.swift in Sources */,
 				C966B51C27E0B28800DBBAD2 /* StateSwiftUIEjemploApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
